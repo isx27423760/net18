@@ -5,6 +5,7 @@
 
 /opt/docker/install.sh && echo "Install OK"
 /usr/sbin/httpd
+/usr/sbin/vsftpd
 /usr/sbin/xinetd -dontfork && echo "Xinetd OK"
 #/usr/sbin/sshd -D 
 
